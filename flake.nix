@@ -28,7 +28,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-artifact-def/application/0.0.93";
+      url = "github:pythoneda-shared-artifact-def/application/0.0.94";
     };
     pythoneda-shared-artifact-events = {
       inputs.flake-utils.follows = "flake-utils";
@@ -46,7 +46,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-artifact-def/events-infrastructure/0.0.79";
+      url = "github:pythoneda-shared-artifact-def/events-infrastructure/0.0.80";
     };
     pythoneda-shared-artifact-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -55,7 +55,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-artifact-def/infrastructure/0.0.90";
+      url = "github:pythoneda-shared-artifact-def/infrastructure/0.0.91";
     };
     pythoneda-shared-artifact-shared = {
       inputs.flake-utils.follows = "flake-utils";
@@ -73,7 +73,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-def/application/0.0.112";
+      url = "github:pythoneda-shared-pythonlang-def/application/0.0.113";
     };
     pythoneda-shared-pythonlang-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -100,8 +100,8 @@
       let
         org = "pythoneda-tools-artifact";
         repo = "git-hook";
-        version = "0.0.4";
-        sha256 = "09d7mq1wqggn0vi2vr9kl039102i8p9a9cs1ikx2bx4nm68779bs";
+        version = "0.0.6";
+        sha256 = "058cn0wr4ca8l2b5pixyf8p4i4nwf26qxxcmg4r2aqwfaga57fjj";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.tools.artifact.git_hook";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
